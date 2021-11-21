@@ -62,17 +62,27 @@ Vlan: 1253
 Vlan 1 // Handy for setup  
 10.233.252.100 usv  
 
-### Access
-10.233.252.2 FDO13370KF5  
-10.233.252.3 FDO13370KAH  
-10.233.252.4 FDO14460ELY  
-(?) 10.233.252.102 FDO13370K8G  
-10.233.252.1 FDO144106JM  
-10.233.252.253 FDO15160LDZ  
+### Catalyst 3750-E switches
+|hostname(Model) | Label       |ip (management vlan 1) |Comment |
+|----------------|-------------|-----------------------|--------|
+|FDO12390BE8     |(access7)    |10.233.252.30||
+|FDO13370K8G     |FDO13370K8G  |10.233.252.10||
+|FDO13130WS7     |FDO13130WS7  |10.233.252.5||
+|FDO133808ZZ     |FDO133808ZZ  |10.233.252.8    |(core 1, requires password on serial)|
+|FDO13370KF5     |FDO13370KF5  |10.233.252.28||
+|FDO134317P1     |FDO134317P1  |10.233.252.6||
+|FDO13370KAH     |FDO13370KAH  |10.233.252.3||
+|FDO14470CGS     |back to cisco|10.233.252.25||
+|FDO13370KGE     |FDO13370KGE  |10.233.252.7    |(core-2)|
+|FDO124504DY     |(user 8)     |10.233.252.12||
+|FDO123809H0     |(user 11)    |10.233.252.13||
+|FDO14020EP3     |(user 14)    |10.233.252.14||
+|FDO13130WUX     |(user 13)    |10.233.252.15||
+|FDO13370K9F     |(user 16)    |10.233.252.17   |(not booting label but does boot perfectly fine)|
+|FDO15160LDZ     |(core-0)     |10.233.252.253||
+|FDO133808A5     |FDO133808A5  |10.233.252.18||
 
 ### Core
-10.233.252.100 FOC19210DQZ  
-10.233.252.101 FOC19240VXP  
 
 ### 10.233.200.0/24 WAN
 Vlan 199  
