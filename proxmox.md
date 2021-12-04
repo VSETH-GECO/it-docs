@@ -11,12 +11,12 @@ minfree: Unpartitioned space which will be used temporarily when creating new VM
 maxvz: Size of the data partition (stores VM's). Leave this empty to use all remaining space.
 |Label|swap|maxroot|minfree|Storage|
 |---|---|---|---|---|
-|HEX1|8|80|8|250|
-|HEX2|8|15|8|120|
-|HEX3|8|15|8|120|
-|HEX4|8|15|8|120|
-|HEX5|8|15|8|120|
-|HEX6|8|15|8|120|
+|HEX1|2|80|1|250|
+|HEX2|2|30|1|120|
+|HEX3|2|30|1|120|
+|HEX4|2|30|1|120|
+|HEX5|2|30|1|120|
+|HEX6|2|30|1|120|
 
 ### Fix SSH Problems
 Execute this for each host in the cluster on each host in the cluster:
